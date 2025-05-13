@@ -14,7 +14,7 @@ jobs:
     uses: ./.github/workflows/terraform.yml
     with:
       environment: "dev"
-    aws-assume-role-arn: "arn:aws:iam::627994960648:role/github-actions-Leonardo-Benites-pipeline"
-    aws-region: "sa-east-1"
-    aws-statefile-s3-bucket: "benites-sa-east1-terraform-statefile"
-    aws-lock-dynamodb-table: "benites-sa-east-1-terraform-lock" 
+      aws-assume-role-arn: "arn:aws:iam::627994960648:role/github-actions-Leonardo-Benites-pipeline"
+      aws-region: "sa-east-1"
+      aws-statefile-s3-bucket: "benites-sa-east1-terraform-statefile"
+      aws-lock-dynamodb-table: "benites-sa-east-1-terraform-lock" 
